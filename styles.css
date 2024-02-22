@@ -11,7 +11,7 @@ body {
     display: grid;
     height: 100%;
     grid-template-rows: minmax(110px, 2fr) minmax(540px, 5.5fr);
-    grid-template-columns: minmax(200px, 2fr) minmax(740px, 5fr);
+    grid-template-columns: minmax(285px, 2fr) minmax(740px, 5fr);
     grid-template-areas: 'aside header header'
                         'aside main main';
 
@@ -48,6 +48,10 @@ body {
                     align-self: start;
                 }
             }
+        }
+
+        * {
+            cursor: pointer;
         }
     }
 
