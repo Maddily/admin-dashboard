@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    height: 100%;
+    grid-template-rows: minmax(110px, 2fr) minmax(540px, 5.5fr);
+    grid-template-columns: minmax(200px, 2fr) minmax(740px, 5fr);
+    grid-template-areas: 'aside header header'
+                        'aside main main';
+
+    aside {
+        grid-area: aside;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    .main {
+        grid-area: main;
+    }
+}
