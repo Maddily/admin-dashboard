@@ -1,7 +1,6 @@
 # Admin Dashboard
 
-This is an admin dashboard.
-An admin dashboard allows access to information needed by a particular professional or a team.
+This is an admin dashboard.<br>An admin dashboard allows access to information needed by a particular professional or a team.
 
 
 ## Authors
