@@ -59,7 +59,7 @@ body {
             }
         }
 
-        * {
+        svg, h1, span {
             cursor: pointer;
         }
     }
@@ -144,6 +144,10 @@ body {
                 color: white;
             }
         }
+
+        svg, img, button {
+            cursor: pointer;
+        }
     }
 
     .main {
@@ -170,6 +174,7 @@ body {
                     border-style: none none none inset;
                     box-shadow: 3px 5px 6px var(--shadow);
                     background-color: white;
+                    cursor: pointer;
 
                     h4, p {
                         margin: 0;
@@ -206,6 +211,7 @@ body {
                     border-radius: 10px;
                     box-shadow: 3px 5px 6px var(--shadow);
                     background-color: white;
+                    cursor: pointer;
 
                     div:nth-child(1), div:nth-child(2) {
                         border-bottom: 1px solid #d2d2d2;
@@ -254,6 +260,10 @@ body {
 
                         p {
                             margin: 0;
+                        }
+
+                        img, p:first-of-type {
+                            cursor: pointer;
                         }
 
                         p:nth-of-type(2) {
