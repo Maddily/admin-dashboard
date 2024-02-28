@@ -276,7 +276,7 @@ header svg, header img, header button {
     }
 
     body {
-        grid-template-rows: minmax(120px, 1fr) 5.5fr;
+        grid-template-rows: minmax(150px, 1fr) 5.5fr;
         grid-template-columns: 1.5fr 5fr;
         grid-template-areas: 'aside header'
                             'aside main';
@@ -348,6 +348,10 @@ header svg, header img, header button {
 }
 
 @media screen and (max-width: 860px) {
+    body {
+        grid-template-rows: minmax(120px, 1fr) 5.5fr;
+    }
+
     header {
         padding: 20px 10px 10px 10px;
     }
