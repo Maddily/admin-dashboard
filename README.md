@@ -3,10 +3,9 @@
 This is an admin dashboard.<br>An admin dashboard allows access to information needed by a particular professional or a team.
 
 
-## Authors
+## Author
 
-- Mayada Saeed - [`Maddily`](https://github.com/Maddily) - [`LinkedIn Profile`](https://www.linkedin.com/in/mayadase/)
-
+- Mayada Saeed
 
 ## Acknowledgments
 
